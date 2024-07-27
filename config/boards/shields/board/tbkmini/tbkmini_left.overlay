@@ -1,4 +1,4 @@
-#include "scylla.dtsi"
+#include "tbkmini.dtsi"
 
 &kscan0 {
         col-gpios
