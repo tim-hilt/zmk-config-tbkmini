@@ -44,7 +44,7 @@
                 &kp TAB       &kp Q  &kp W  &kp F     &kp P    &kp B      &kp J        &kp L          &kp U     &kp Y    &kp SEMI  &kp MINUS
                 &mt LGUI ESC  &kp A  &kp R  &kp S     &kp T    &kp G      &kp M        &kp N          &kp E     &kp I    &kp O     &kp SQT
                 &kp LSHFT     &kp Z  &kp X  &kp C     &kp D    &kp V      &kp K        &kp H          &kp COMMA &kp DOT  &kp SLASH &kp END
-                                            &kp LALT  &kp SPC  &kp LCTL   &lt 1 ENTER  &mt LSHFT BSPC &kp LALT
+                                            &kp LALT  &kp SPC  &kp LCTRL  &lt 1 ENTER  &mt LSHFT BSPC &kp LALT
             >;
         };
 
@@ -60,9 +60,9 @@
         win {
             bindings = <
                 &kp TAB       &kp Q  &kp W  &kp F     &kp P    &kp B      &kp J        &kp L          &kp U     &kp Y    &kp SEMI  &kp MINUS
-                &mt LCTL ESC  &kp A  &kp R  &kp S     &kp T    &kp G      &kp M        &kp N          &kp E     &kp I    &kp O     &sqt_spc
+                &mt LCTRL ESC  &kp A  &kp R  &kp S     &kp T    &kp G      &kp M       &kp N          &kp E     &kp I    &kp O     &sqt_spc
                 &kp LSHFT     &kp Z  &kp X  &kp C     &kp D    &kp V      &kp K        &kp H          &kp COMMA &kp DOT  &kp SLASH &kp END
-                                            &kp LALT  &kp SPC  &kp LGUI   &lt 3 ENTER  &lt LSFT BSPC  &mo 4
+                                            &kp LALT  &kp SPC  &kp LGUI   &lt 3 ENTER  &mt LSHFT BSPC &mo 4
             >;
         };
 
@@ -77,10 +77,10 @@
 
         int {
             bindings = <
-                &none    &none      &none  &none     &none  &none      &none  &none     &kp RA(Y)  &none  &none      &none
-                &none    &kp RA(Q)  &none  &kp RA(S) &none  &none      &none  &none     &kp RA(5)  &none  &kp RA(P)  &none
-                &kp LSFT &none      &none  &none     &none  &none      &none  &none     &none      &none  &none      &none
-                                           &none     &none  &none      &none  &kp LSFT  &none
+                &none     &none      &none  &none     &none  &none      &none  &none     &kp RA(Y)  &none  &none      &none
+                &none     &kp RA(Q)  &none  &kp RA(S) &none  &none      &none  &none     &kp RA(5)  &none  &kp RA(P)  &none
+                &kp LSHFT &none      &none  &none     &none  &none      &none  &none     &none      &none  &none      &none
+                                            &none     &none  &none      &none  &kp LSHFT &none
             >;
         };
 
