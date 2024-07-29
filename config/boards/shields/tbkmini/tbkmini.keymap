@@ -53,7 +53,7 @@
                 &kp GRAVE  &kp EXCL   &kp AMPS  &kp LBRC  &kp RBRC  &kp CARET     &kp LG(LS(4))  &kp 7   &kp 8  &kp 9  &kp COLON  &kp DEL
                 &kp HASH   &kp EQUAL  &kp DLLR  &kp LPAR  &kp RPAR  &kp TILDE     &kp LC(UP)     &kp 4   &kp 5  &kp 6  &kp PLUS   &kp STAR
                 &kp PIPE   &kp AT     &kp PRCNT &kp LBKT  &kp RBKT  &kp UP        &kp 0          &kp 1   &kp 2  &kp 3  &kp BSLH   &kp HOME
-                                                &kp LEFT  &kp DOWN  &kp RIGHT     &kp NO         &kp NO  &kp NO
+                                                &kp NO  &kp NO  &kp NO     &kp NO         &kp NO  &kp NO
             >;
         };
 
