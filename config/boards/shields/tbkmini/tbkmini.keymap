@@ -42,9 +42,9 @@
         mac {
             bindings = <
                 &kp TAB       &kp Q  &kp W  &kp F     &kp P    &kp B      &kp J        &kp L          &kp U     &kp Y    &kp SEMI  &kp MINUS
-                &lt LGUI ESC  &kp A  &kp R  &kp S     &kp T    &kp G      &kp M        &kp N          &kp E     &kp I    &kp O     &kp SQT
+                &mt LGUI ESC  &kp A  &kp R  &kp S     &kp T    &kp G      &kp M        &kp N          &kp E     &kp I    &kp O     &kp SQT
                 &kp LSHFT     &kp Z  &kp X  &kp C     &kp D    &kp V      &kp K        &kp H          &kp COMMA &kp DOT  &kp SLASH &kp END
-                                            &kp LALT  &kp SPC  &kp LCTL   &lt 1 ENTER  &lt LSFT BSPC  &kp LALT
+                                            &kp LALT  &kp SPC  &kp LCTL   &lt 1 ENTER  &mt LSHFT BSPC &kp LALT
             >;
         };
 
