@@ -49,6 +49,9 @@
     };
 };
 
+&lt { flavor = "hold-preferred"; };
+&mt { flavor = "hold-preferred"; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
