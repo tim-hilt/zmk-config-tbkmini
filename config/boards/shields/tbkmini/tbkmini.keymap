@@ -85,9 +85,9 @@
 
         winsym {
             bindings = <
-                &grave_spc   &kp EXCL    &kp AMPS   &kp LBRC  &kp RBRC  &caret_spc    &kp LG(LS(S))  &kp N7         &kp N8  &kp 9  &kp COLON  &kp DEL
-                &kp HASH     &kp EQUAL   &kp DLLR   &kp LPAR  &kp RPRN  &tilde_spc    &kp LG(UP)     &kp N4         &kp N5  &kp 6  &kp PLUS   &kp STAR
-                &kp PIPE     &kp AT      &kp PRCNT  &kp LBKT  &kp RBKT  &kp UP        &kp N0         &kp N1         &kp N2  &kp 3  &kp BSLH   &kp HOME
+                &grave_spc   &kp EXCL    &kp AMPS   &kp LBRC  &kp RBRC  &caret_spc    &kp LG(LS(S))  &kp N7         &kp N8  &kp N9  &kp COLON  &kp DEL
+                &kp HASH     &kp EQUAL   &kp DLLR   &kp LPAR  &kp RPRN  &tilde_spc    &kp LG(UP)     &kp N4         &kp N5  &kp N6  &kp PLUS   &kp STAR
+                &kp PIPE     &kp AT      &kp PRCNT  &kp LBKT  &kp RBKT  &kp UP        &kp N0         &kp N1         &kp N2  &kp N3  &kp BSLH   &kp HOME
                                                     &kp LEFT  &kp DOWN  &kp RIGHT     &none          &kp LG(LEFT)   &kp LG(RIGHT)
             >;
         };
