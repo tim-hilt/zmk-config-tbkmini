@@ -1,4 +1,4 @@
-if SHIELD_TBKMINI_LEFT
+if SHIELD_TBKMINI_DONGLE
 
 config ZMK_KEYBOARD_NAME
         default "TBK Mini"
@@ -6,18 +6,17 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
 
-endif
-
-if SHIELD_TBKMINI_RIGHT
-
-config ZMK_KEYBOARD_NAME
-        default "TBK Mini Right"
+config ZMK_USB
+        default y
 
 endif
 
-if SHIELD_TBKMINI_LEFT || SHIELD_TBKMINI_RIGHT
+if SHIELD_TBKMINI_LEFT || SHIELD_TBKMINI_RIGHT || SHIELD_TBKMINI_DONGLE
 
 config ZMK_SPLIT
+        default y
+
+config ZMK_BLE
         default y
 
 endif
