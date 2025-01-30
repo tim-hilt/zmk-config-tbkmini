@@ -1,7 +1,7 @@
-config SHIELD_TKBMINI_LEFT
+config SHIELD_TBKMINI_LEFT
 	def_bool $(shields_list_contains,tbkmini_left)
 
-config SHIELD_TKBMINI_RIGHT
+config SHIELD_TBKMINI_RIGHT
 	def_bool $(shields_list_contains,tbkmini_right)
 
 config SHIELD_TBKMINI_DONGLE
