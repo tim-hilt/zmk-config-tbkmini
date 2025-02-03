@@ -47,7 +47,7 @@
                 &kp TAB       &kp W  &kp L  &kp Y     &kp P    &kp B      &kp Z        &kp F          &kp O     &kp U    &kp SEMI  &kp MINUS
                 &mt LGUI ESC  &kp C  &kp R  &kp S     &kp T    &kp G      &kp M        &kp N          &kp E     &kp I    &kp A     &kp SQT
                 &kp LSHFT     &kp Q  &kp J  &kp V     &kp D    &kp K      &kp X        &kp H          &kp COMMA &kp DOT  &kp SLASH &kp END
-                                            &kp LALT  &kp SPC  &kp LCTRL  &lt 1 ENTER  &mt LSHFT BSPC &kp LALT
+                                            &kp LALT  &kp SPC  &kp LCTRL  &lt 1 ENTER  &mt LSHFT BSPC &mo 5
             >;
         };
 
@@ -56,7 +56,7 @@
                 &kp GRAVE  &kp EXCL   &kp AMPS  &kp LBRC  &kp RBRC  &kp CARET     &kp LG(LS(N4)) &kp N7   &kp N8  &kp N9  &kp COLON  &kp DEL
                 &kp HASH   &kp EQUAL  &kp DLLR  &kp LPAR  &kp RPAR  &kp TILDE     &kp LC(UP)     &kp N4   &kp N5  &kp N6  &kp PLUS   &kp STAR
                 &kp PIPE   &kp AT     &kp PRCNT &kp LBKT  &kp RBKT  &kp UP        &kp N0         &kp N1   &kp N2  &kp N3  &kp BSLH   &kp HOME
-                                                &kp LEFT  &kp DOWN  &kp RIGHT     &none          &none    &to 2
+                                                &kp LEFT  &kp DOWN  &kp RIGHT     &none          &none    &none
             >;
         };
 
@@ -78,12 +78,21 @@
             >;
         };
 
-        int {
+        winint {
             bindings = <
-                &to 0     &none  &none  &none     &none  &none      &none  &none     &kp RA(P)  &kp RA(Y)  &none      &none
-                &none     &none  &none  &kp RA(S) &none  &none      &none  &none     &kp RA(5)  &none      &kp RA(Q)  &none
-                &kp LSHFT &none  &none  &none     &none  &none      &none  &none     &none      &none      &none      &none
-                                        &none     &none  &none      &none  &kp LSHFT &none
+                &to 0     &none  &none  &none     &none  &none      &none   &none       &kp RA(P)    &kp RA(Y)       &none               &none
+                &none     &none  &none  &kp RA(S) &none  &none      &none   &none       &kp RA(5)    &none           &kp RA(Q)           &none
+                &kp LSHFT &none  &none  &none     &none  &none      &kp F5  &kp F10     &kp F11      &kp LS(F11)     &kp LG(LS(F5))      &kp LS(F5)
+                                        &none     &none  &none      &none   &kp LSHFT   &none
+            >;
+        };
+
+        macint {
+            bindings = <
+                &to 2      &none  &none  &none      &none  &none      &none   &none       &kp LA(o)  &kp LA(u)       &none           &none
+                &none      &none  &none  &kp LA(s)  &none  &none      &none   &none       &none      &none           &kp LA(a)       &none
+                &kp LSHFT  &none  &none  &none      &none  &none      &kp F5  &kp F10     &kp F11    &kp LS(F11)     &kp LG(LS(F5))  &kp LS(F5)
+                                         &none      &none  &none      &none   &none       &none
             >;
         };
 
