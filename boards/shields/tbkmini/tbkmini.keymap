@@ -89,8 +89,8 @@
 
         macint {
             bindings = <
-                &to 2      &none  &none  &none      &none  &none      &none   &none       &kp LA(o)  &kp LA(u)       &none           &none
-                &none      &none  &none  &kp LA(s)  &none  &none      &none   &none       &none      &none           &kp LA(a)       &none
+                &to 2      &none  &none  &none      &none  &none      &none   &none       &kp LA(O)  &kp LA(U)       &none           &none
+                &none      &none  &none  &kp LA(S)  &none  &none      &none   &none       &none      &none           &kp LA(A)       &none
                 &kp LSHFT  &none  &none  &none      &none  &none      &kp F5  &kp F10     &kp F11    &kp LS(F11)     &kp LG(LS(F5))  &kp LS(F5)
                                          &none      &none  &none      &none   &none       &none
             >;
